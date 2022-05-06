@@ -287,4 +287,4 @@ def get_anchors(anchors_path):
     with open(anchors_path) as f:
         anchors = f.readline()
     anchors = [float(x) for x in anchors.split(',')]
-    return anchors
+    return np.array(anchors).reshape([-1, 3, 2])[::-1, :, :]
