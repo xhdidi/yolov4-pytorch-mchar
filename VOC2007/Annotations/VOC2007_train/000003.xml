@@ -1,0 +1,28 @@
+<annotation>
+	<size>
+		<width>161</width>
+		<height>79</height>
+		<depth>3</depth>
+	</size>
+		<segmented>0</segmented>
+	<object>
+		<name>9</name>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>57</xmin>
+			<ymin>13</ymin>
+			<xmax>72</xmax>
+			<ymax>47</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>3</name>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>72</xmin>
+			<ymin>13</ymin>
+			<xmax>85</xmax>
+			<ymax>47</ymax>
+		</bndbox>
+	</object>
+</annotation>
